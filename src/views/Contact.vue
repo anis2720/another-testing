@@ -8,19 +8,19 @@
     <ul>
       <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="https://anis2720.github.io/my-portfolio/" target="_blank">https://mywebsite.com</a>
+        <a href="https://anis2720.github.io/my-portfolio/" target="_blank">https://anis2720.github.io/my-portfolio/</a>
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="anishadi.1412@email.com" target="_blank">my@email.com</a>
+        <a href="anishadi.1412@email.com" target="_blank">anishadi.1412@email.com</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/in/nurul-anis-hadi/" target="_blank">linkedin.com/me</a>
+        <a href="https://www.linkedin.com/in/nurul-anis-hadi/" target="_blank">https://www.linkedin.com/in/nurul-anis-hadi/</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
-        <a href="https://github.com/anis2720" target="_blank">github.com/me</a>
+        <a href="https://github.com/anis2720" target="_blank">https://github.com/anis2720e</a>
       </li>
     </ul>
 
