@@ -20,7 +20,7 @@
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
-        <a href="https://github.com/anis2720" target="_blank">https://github.com/anis2720e</a>
+        <a href="https://github.com/anis2720" target="_blank">https://github.com/anis2720</a>
       </li>
     </ul>
 
