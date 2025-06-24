@@ -21,25 +21,14 @@ export default Vue.extend({
   background-color: @bodyBgColor;
   width: 100%;
   font-size: 0.8em;
-  opacity: 1;
+  opacity: 0.7;
   padding-bottom: 30px;
-  color:#cbd7e1;
-}
-
-.footer a {
-  color:#FFD966; // Soft yellow
-  text-decoration: underline;
-}
-
-.footer a:hover {
-  color: #cbd7e1;
 }
 
 .left, .right {
-  padding-top: 10px;
-  text-align: center;
-}
-
+    padding-top: 10px;
+    text-align: center;
+  }
 
 @media only screen and (min-width: 620px){
 
