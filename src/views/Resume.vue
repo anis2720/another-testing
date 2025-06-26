@@ -15,13 +15,12 @@
       <br />
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/Pro-Resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/me-photo.jpg" alt="Photo of me" />
     </div>
 
     <div style="clear:both"></div>
@@ -43,25 +42,14 @@
 
       <div class="skill-set">
         <h3>Programming Languages</h3>
-        <div class="skills-container">
-        <div> 
         <SkillRate name="C++" />
-        <SkillRate name="C" />
-        </div>
-        <div>
-        <SkillRate name="C# " />
-        <SkillRate name="Python" />
-        </div>
-        <div>
         <SkillRate name="HTML" />
+        <SkillRate name="C" />
         <SkillRate name="JavaScript" />
-        </div>
-        <div>
+        <SkillRate name="C#" />
         <SkillRate name="MySQL" />
+        <SkillRate name="Python" />
         <SkillRate name="phpMyAdmin" />
-        </div>
-
-        </div>
       </div>
 
       <div class="skill-set">
