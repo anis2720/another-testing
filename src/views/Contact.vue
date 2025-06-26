@@ -28,6 +28,19 @@
 </template>
 
 <style scoped>
+
+a {
+  color:#228B22;
+  text-decoration: none;
+  opacity: 1;
+}
+a:hover, .router-link-exact-active {
+  color: #006400;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+
 ul {
   list-style: none;
   padding-inline-start: 0px;

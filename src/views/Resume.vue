@@ -40,45 +40,64 @@
 
       <h2>Skills</h2>
 
-      <div class="skill-set">
-        <h3>Programming Languages</h3>
+      <div class="skills-wrapper">
 
         <div class="skill-set">
+          <h3>Programming Languages</h3>
+          <div class="skills-grid">
           <SkillRate name="C++" />
-          <div>C++</div>
-          <div>C</div>
-        <SkillRate name="HTML" />
-        <SkillRate name="C" />
-        <SkillRate name="JavaScript" />
-        <SkillRate name="C#" />
-        <SkillRate name="MySQL" />
-        <SkillRate name="Python" />
-        <SkillRate name="phpMyAdmin" />
-        
-
+          <SkillRate name="C#" />
+          <SkillRate name="C" />
+          <SkillRate name="Python" />
+          <SkillRate name="HTML" />
+          <SkillRate name="MySQL" />
+          <SkillRate name="JavaScript" />
+          <SkillRate name="phpMyAdmin" />
+          </div>
         </div>
-        <div style="clear:both" />
-        
-      </div>
 
-      <div class="skill-set">
-        <h3>Soft Skills</h3>
-        <SkillRate name="Adaptability"  />
-        <SkillRate name="Attention to Detail" />
-        <SkillRate name="Communication" />
-        <SkillRate name="Creativity"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
-        <SkillRate name="Documentation"  />
+        <div class="skill-set">
+          <h3>Technical Tools & Softwares</h3>
+          <div class="skills-grid">
+          <SkillRate name="Arduino" />
+          <SkillRate name="Adobe Photoshop" />
+          <SkillRate name="Adobe Illustrator" />
+          <SkillRate name="Adobe Premiere Pro" />
+          <SkillRate name="Adobe After Effects" />
+          <SkillRate name="Blender" />
+          <SkillRate name="Unreal Engine 5" />
+          <SkillRate name="Unity" />
+          <SkillRate name="Canva" />
+          <SkillRate name="Capcut" />
+          <SkillRate name="Capcut" />
+          <SkillRate name="Microsoft Office Suite (Word, Excel, PowerPoint)" />
+          </div>
+        </div>
+
+        <div class="skill-set">
+          <h3>Soft Skills</h3>
+          <div class="skills-grid">
+          <SkillRate name="Adaptability" />
+          <SkillRate name="Attention to Detail" />
+          <SkillRate name="Communication" />
+          <SkillRate name="Creativity" />
+          <SkillRate name="Documentation" />
+          <SkillRate name="Multitasking" />
+          <SkillRate name="Project Management" />
+          <SkillRate name="Problem-Solving" />
+          <SkillRate name="Teamwork" />
+          <SkillRate name="Team Leadership" />
+          <SkillRate name="Time Management" />
+          <SkillRate name="Technical Support" />
+          <SkillRate name="Willingness to Learn" />
+          <SkillRate name="Data Management & Reporting" />
+          </div>
+        </div>
 
       </div>
       <div style="clear:both" />
 
+  
       <h2>Education</h2>
 
       <h3>[Diploma] Universiti Teknikal Malaysia Melaka (UTeM)</h3>
@@ -127,6 +146,36 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap; /* allow responsive stacking on small screens */
+}
+
+.skill-set {
+  flex: 1;
+  min-width: 300px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2-column skills */
+}
+
+a {
+  color:#228B22;
+  text-decoration: none;
+  opacity: 1;
+}
+a:hover, .router-link-exact-active {
+  color: #006400;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+
 h2 {
   font-weight: 100;
   font-size: 2em;

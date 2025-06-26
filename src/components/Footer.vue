@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div class="left">Portfolio by AnisH</div>
+    <div class="left">Portfolio by <router-link to="/resume"> AnisH</router-link></div>
     <div class="right">Reach me at <a href="mailto:my@email.com">anishadi.1412@gmail.com</a> or <router-link to="/contact">through here</router-link></div>
   </div>
 </template>
@@ -16,6 +16,19 @@ export default Vue.extend({
 <style scoped lang="less">
 
 @import '../css/variables.less';
+
+a {
+  color:	#2ECC71;
+  text-decoration: none;
+  opacity: 1;
+}
+a:hover, .router-link-exact-active {
+  color:	#2ECC71;
+  font-weight: bold;
+  text-decoration: underline;
+  opacity: 1;
+}
+
 
 .footer {
   background-color: @bodyBgColor;
@@ -34,6 +47,7 @@ export default Vue.extend({
 
   .footer {
     padding: 0;
+    color: #ffffff;
   }
 
   .left, .right {

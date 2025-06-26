@@ -46,7 +46,11 @@ html, body {
 }
 
 #app {
-  background-color: @contentBgColor;
+  background-color: @contentBgColor;  
+  background-image: url("/img/blueaes.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: @textColor;
 
   font-family: 'Karla', Helvetica, Arial, sans-serif;
@@ -63,11 +67,12 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
+  color:#3F51B5;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 1;
 }
 a:hover, .router-link-exact-active {
+  color: 	#0F1C4D;
   opacity: 1;
 }
 

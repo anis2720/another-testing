@@ -34,13 +34,13 @@ export default Vue.extend({
 
 .skill-name {
   float: left;
-  width: 200px;
+  width: 210px;
 }
 
 .skill-rate {
   float: left;
-  width: 80px;
-  padding-top:11px;
+  width: 10px;
+  padding-top:5px;
 }
 
 .circle {

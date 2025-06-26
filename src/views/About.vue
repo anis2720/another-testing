@@ -1,6 +1,6 @@
 <template>
-  <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+  <div style="margin-bottom: 80px;" >
+    <h1>Greetings!</h1>
 
     <div class="paragraph">
       <div>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/main-photo-bubble.jpg" alt="Avatar me" /> 
+      <img src="img/main-photo-bubble.png" alt="Avatar me" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -24,16 +24,28 @@
 </template>
 
 <style scoped>
+
+a {
+  color:#228B22;
+  text-decoration: none;
+  opacity: 1;
+}
+a:hover, .router-link-exact-active {
+  color: #006400;
+  text-decoration: underline;
+  opacity: 1;
+}
+
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;
+  backdrop-filter: blur(10px);
 }
 
 .photo {
   margin-top: 50px;
   text-align: center;
-  width: 50px;
-  height: 50px;
+  image-rendering: auto;
 }
 
 @media only screen and (min-width: 620px){
