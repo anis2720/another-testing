@@ -25,6 +25,21 @@
 
 <style scoped>
 
+.photo img {
+  opacity: 0;
+  transform: rotate(-10deg) scale(0.95);
+  animation: fadeRotate 1.2s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeRotate {
+  to {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+
 a {
   color:#228B22;
   text-decoration: none;
@@ -39,11 +54,11 @@ a:hover, .router-link-exact-active {
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 }
 
 .photo {
-  margin-top: 50px;
+  margin-top: 35px;
   text-align: center;
   image-rendering: auto;
 }

@@ -147,6 +147,19 @@ export default Vue.extend({
 
 <style scoped>
 
+.photo img {
+  opacity: 0;
+  transform: translateY(-30px) scale(0.95);
+  animation: fadeSlideZoom 1s ease-out forwards;
+}
+
+@keyframes fadeSlideZoom {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 .skills-wrapper {
   display: flex;
   justify-content: space-between;

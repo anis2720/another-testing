@@ -47,7 +47,7 @@ html, body {
 
 #app {
   background-color: @contentBgColor;  
-  background-image: url("img/blueaes.png");
+  background-image: url("/img/blueaes.png"); // /my-portfolio/img/blueaes.png || github
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
