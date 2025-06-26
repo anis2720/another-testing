@@ -15,7 +15,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/main-photo.jpg" alt="Avatar me" /> 
+      <img src="img/main-photo-bubble.jpg" alt="Avatar me" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -32,7 +32,8 @@
 .photo {
   margin-top: 50px;
   text-align: center;
-  
+  width: 50px;
+  height: 50px;
 }
 
 @media only screen and (min-width: 620px){
