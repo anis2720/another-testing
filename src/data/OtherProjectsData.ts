@@ -1,10 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-
-
 export default [
 
-  
   // Wanita Melayu Terakhir Skit
     new ProjectData("project-6", "Wanita Melayu Terakhir", "img/WMT/Poster.png", `
     <div class="paragraph">
